@@ -1,12 +1,13 @@
-#exec-bio {
-    background-color: lightgrey
-} 
+
 a {
-    color: red ;
+    color: red;
 }
 .bio-box {
     border: 1px solid black;
 }
 .bio-box a {
-    color: green
+    color: green;
+}
+a.social-link {
+    color: purple;
 }
