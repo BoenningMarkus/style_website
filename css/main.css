@@ -1,0 +1,12 @@
+#exec-bio {
+    background-color: lightgrey
+} 
+a {
+    color: red ;
+}
+.bio-box {
+    border: 1px solid black;
+}
+.bio-box a {
+    color: green
+}
