@@ -2,18 +2,26 @@
 
 /* GLOBAL STYLES */
 a {
-    color: red;
+    color: #008800;
 }
+h2 {
+    font-size: 30px;
+}
+
 
 /* SOCIAL STYLES */
 .social-link {
-    color: purple
+    color: #ffffff;
+    background-color: #757575;
 }
+
 
 /* BIO STYLES */
 .bio-box {
     border: 1px solid black;
+    background-color: rgba(174,235,161,0.5);
+    width: 800px;
 }
 .bio-copy a {
-    color: green;
+    color:#000088;
 }
