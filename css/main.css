@@ -33,6 +33,15 @@ h2 {
 /* BIO STYLES */
 .bio-wrapper {
     font-size: 24px;
+    overflow: hidden;
+}
+.bio-wrapper::after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
 }
 .bio-box {
     background-color: rgba(174,235,161,0.5);
@@ -42,7 +51,6 @@ h2 {
     float: left;
     padding: 2%;
     width: 25%;
-    
 }
 .bio-copy h3 {
     font-size: 1,5em;
