@@ -61,8 +61,14 @@ h2 {
 .bio-box img {
     width: 100%;
 }
-.bio-copy h3 {
-    font-size: 1,5em;
+.bio-box h3 {
+    background-color: #004466;
+    color: #ffffff;
+    font-size: 1,7em;
+    margin: -22px 0 1em;
+}
+.bio-box p {
+    text-align: center;
 }
 .bio-copy {
     font-size: 1em;
