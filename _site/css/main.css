@@ -40,8 +40,7 @@ strong, b {
 }
 em, i {
     font-style: italic;
-}a
-img {
+}a img {
     border: none;
 }
 /* END RESET*/
@@ -59,6 +58,23 @@ h2 {
     font-size: 4vw;
     text-align: center;
     margin: 10px auto;
+}
+
+/* HEADER STYLES */
+.header-nav {
+    float: right; 
+    padding: 5.5vh 60px 0 0;
+}
+.header-nav > li {
+    display: inline-block;
+    margin-left: 1em;
+}
+.header-nav a {
+    color: #000;
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 /* HERO STYLES */
