@@ -40,6 +40,17 @@ layout: default
 </div>
 
 <div class="home-section">
+    <h4>Most recent Post</h4>
+        {% for post in site.posts limit:1 %}
+        {% include post-excerpt.html %}
+{% endfor %}
+
+
+
+</div>
+
+
+<div class="home-section">
     <h2>Biotope Tanks and Stuff</h2>
     <p>
         Reproducing a biotope (habitat) always starts with some specialised literature and internet research. Everyone has their own favourite fish species (e.g. angel fish) or a region, you find fascinating (e.g. Lake Tanganyika). With a bit of luck you’ll find some photos or even videos of your chosen region. Now you’ll begin to imagine what your aquarium could look like.
