@@ -54,7 +54,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    font-family: helvetica, arial, sans-serif ;
+    font-family: 'Open Sans', helvetica, arial, sans-serif ;
     min-height: 100vh;
 }
 .content-container {
@@ -63,6 +63,12 @@ body {
     padding-top: 10vh;
     width: 100%;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'raleway', Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+
 h1 {
     font-size: 5vw;
     margin-top: 0;
@@ -376,18 +382,19 @@ h2 ~ p {
     box-sizing: border-box;
     color: #fff;
     display: inline-block;
-    font-size: 1rem;
+    font-size: 1.7em;
     font-weight: bold;
     line-height: 1;
-    padding-top: 0.85em;
-    height: 2.5em;
-    width: 3.5em;
+    padding-top: 0.25em;
+    height: 1.5em;
+    width: 1.5em;
     text-align: center;
     text-decoration: none;
     vertical-align: top;
 }
-.social-list{
+.social-list {
     list-style: none;
+    margin-top: 7em;
     padding: 0;
     text-align: center;
 }
